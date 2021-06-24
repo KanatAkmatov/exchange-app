@@ -8,7 +8,7 @@ import axios from 'axios'
 import './App.css'
 
 const App = () => {
-    // let topRates = 'https://api.exchangeratesapi.io/v1/latest?access_key=5a40240bb7531e50d1d5177a6dc34813&symbols=USD,AUD,CAD,JPY,GBP,AUD,CHF,CNY,KRW,INR,RUB,TRY,CZK'
+    // let topRates = 'http://api.exchangeratesapi.io/v1/latest?access_key=5a40240bb7531e50d1d5177a6dc34813&symbols=USD,AUD,CAD,JPY,GBP,AUD,CHF,CNY,KRW,INR,RUB,TRY,CZK'
     const dispatch = useDispatch()
     useEffect(() => {
         axios('http://api.exchangeratesapi.io/v1/latest?access_key=5a40240bb7531e50d1d5177a6dc34813').then(({data}) => dispatch({
