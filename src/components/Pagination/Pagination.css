@@ -1,0 +1,27 @@
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 750px;
+}
+.pagination-item{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 5px 5px 10px 0 #a3b1c6, -5px -5px 10px 0 rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+}
+.pagination-item:active{
+    border: 2px solid gray;
+}
